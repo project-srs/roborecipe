@@ -24,7 +24,7 @@ pip install roborecipe
 ```code
 $ git clone https://github.com/eriac/roborecipe.git  
 $ cd roborecipe
-$ pip install ./ (add -e for develope mode)
+$ pip install ./ (pip install -e ./ for develope mode)
 ```
 
 ## how to use
@@ -45,6 +45,8 @@ $ roborecipe list -d ~/roborecipe/sample/
 ```code
 $ roborecipe generate sample_project main_asm -d roborecipe/sample/ -o out
 ```
+
+see [sample output file](docs/sample_out/index.html)
 
 ## how to uninstall
 ```code

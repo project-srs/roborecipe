@@ -45,7 +45,7 @@ def output_list_data(target_directory):
 
 
 def generateInstruction(target_directory, output_directory, pkg_name, type_name, top_level_only):
-    # clear_panda3d_cashe()
+    clear_panda3d_cashe()
     print(pkg_name, type_name)
 
     dl = DirectoryLoader(target_directory)

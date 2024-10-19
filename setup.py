@@ -12,6 +12,7 @@ setuptools.setup(
         "jinja2",
         "pillow",
         "networkx",
+        "imageio",
         "panda3d-viewer",
     ],
     entry_points={

@@ -73,7 +73,7 @@ class AssemblyDependencyAnalyzer:
             RED = '\033[31m'
             END = '\033[0m'
             print(RED + component_id.getName() + ' is empty' + END)
-            return edge_list
+            return asm_list
 
         asm_list.append(comp.id)
         if comp.category.is_assembly():

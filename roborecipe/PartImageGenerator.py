@@ -11,6 +11,7 @@ def clear_panda3d_cashe():
     cashe_dir = BamCache.getGlobalPtr().getRoot()
     print("remove panda3d chashe " + str(cashe_dir))
     shutil.rmtree(cashe_dir)
+    os.mkdir(cashe_dir)
 
 class MechanicalPartsImageGenerator:
     def __init__(self, comp):

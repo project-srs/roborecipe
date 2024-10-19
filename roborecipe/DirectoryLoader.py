@@ -74,7 +74,7 @@ class DirectoryLoader:
         return None
 
     def _get_component_list(self, pkg_path):
-        return glob.glob(pkg_path + '/roborecipe/*.yaml', recursive = True)
+        return glob.glob(pkg_path + '/roborecipe/**/*.yaml', recursive = True)
 
     def _get_modify_datetime(self, dir_path):
         file_list = glob.glob(dir_path + '/**/*', recursive = True)
